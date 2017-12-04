@@ -1,0 +1,11 @@
+package main
+
+import "{{.ImportPath}}"
+
+func main() {
+    ignore({{.PackageName}}.View{})
+}
+
+func ignore(i {{.PackageName}}.View) {
+
+}
